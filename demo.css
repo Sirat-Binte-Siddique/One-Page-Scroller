@@ -4,7 +4,6 @@ html {
 
 body {
     padding: 0;
-    text-align: center;
     position: relative;
     margin: 0;
     height: 100%;
@@ -12,59 +11,76 @@ body {
 
 .wrapper {
     height: 100% !important;
-    height: 100%;
-    margin: 0 auto;
-    overflow: hidden;
-}
-
-.main {
-    float: left;
-    width: 100%;
-    margin: 0 auto;
-}
-
-.main section {
-    overflow: hidden;
-}
-
-.main section .page_container {
-    z-index: 3;
-}
-
-.main section > img {
-    max-width: 100%;
-    z-index: 1;
 }
 
 .main section.page1 {
-    background: rgb(230, 217, 200);
+    background: #93B1C6;
 }
 
 .main section.page1 .page_container {
-    margin-top: 240px;
+    z-index: 3;
     overflow: hidden;
 }
 
 .main section.page2 {
-    background: #555557;
+    background: #E9E581;
 }
 
 .main section.page2 .page_container {
-    margin-top: 240px;
+    z-index: 3;
     overflow: hidden;
 }
 
 .main section.page3 {
-    background: #567;
+    background: #4A96AD;
 }
 
-.main section.page2 .page_container {
-    margin-top: 240px;
+.main section.page3 .page_container {
+    z-index: 3;
     overflow: hidden;
-    width: 500px;
+}
+
+.main section.page4 {
+    background: #F9A646;
 }
 
 .main section.page4 .page_container {
-    background: #555557;
+    z-index: 3;
+    overflow: hidden;
+}
+
+.main section.page5 {
+    background: #9068be;
+}
+
+.main section.page5 .page_container {
+    z-index: 3;
+    overflow: hidden;
+}
+
+.main section.page6 {
+    background: #c0dfd9;
+}
+
+.main section.page6 .page_container {
+    z-index: 3;
+    overflow: hidden;
+}
+
+.main section.page7 {
+    background: #c7ad88;
+}
+
+.main section.page7 .page_container {
+    z-index: 3;
+    overflow: hidden;
+}
+
+.main section.page8 {
+    background: #EB65A0;
+}
+
+.main section.page8 .page_container {
+    z-index: 3;
     overflow: hidden;
 }
